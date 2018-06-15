@@ -12,9 +12,14 @@ func validParentheses() {
 
 	res := practice.StackValidParentheses("{}[]<>(")
 	fmt.Println(res)
+}
 
+func sumEvenFibonacci() {
+	res := practice.SumEvenFibonacci(1)
+	fmt.Println(res)
 }
 
 func main() {
-	validParentheses()
+	sumEvenFibonacci()
+	// validParentheses()
 }
