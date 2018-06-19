@@ -19,7 +19,14 @@ func sumEvenFibonacci() {
 	fmt.Println(res)
 }
 
+func findUniq() {
+	s := []float32{1, 2, 1}
+	res := practice.FindUniq(s)
+	fmt.Println(res)
+}
+
 func main() {
-	sumEvenFibonacci()
+	findUniq()
+	// sumEvenFibonacci()
 	// validParentheses()
 }
