@@ -31,8 +31,21 @@ func toCamelCase() {
 	fmt.Println(res)
 }
 
+func twoOldestAges() {
+	s := []int{6, 5, 83, 5, 3, 18}
+	res := practice.TwoOldestAges(s)
+	fmt.Println(res)
+}
+
+func multiple3And5() {
+	res := practice.Multiple3And5(10)
+	fmt.Println(res)
+}
+
 func main() {
-	toCamelCase()
+	// multiple3And5()
+	// twoOldestAges()
+	// toCamelCase()
 	// findUniq()
 	// sumEvenFibonacci()
 	// validParentheses()
