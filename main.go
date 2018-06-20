@@ -42,7 +42,13 @@ func multiple3And5() {
 	fmt.Println(res)
 }
 
+func evenOrOdd() {
+	res := practice.EvenOrOdd(2)
+	fmt.Println(res)
+}
+
 func main() {
+	evenOrOdd()
 	// multiple3And5()
 	// twoOldestAges()
 	// toCamelCase()
