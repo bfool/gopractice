@@ -25,8 +25,15 @@ func findUniq() {
 	fmt.Println(res)
 }
 
+func toCamelCase() {
+	s := "Th-s"
+	res := practice.ToCamelCase(s)
+	fmt.Println(res)
+}
+
 func main() {
-	findUniq()
+	toCamelCase()
+	// findUniq()
 	// sumEvenFibonacci()
 	// validParentheses()
 }
