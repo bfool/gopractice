@@ -47,8 +47,20 @@ func evenOrOdd() {
 	fmt.Println(res)
 }
 
+func positiveSum() {
+	res := practice.PositiveSum([]int{1, -2, 3, 4, 5})
+	fmt.Println(res)
+}
+
+func removeChar() {
+	res := practice.RemoveChar("person")
+	fmt.Println(res)
+}
+
 func main() {
-	evenOrOdd()
+	// removeChar()
+	// positiveSum()
+	// evenOrOdd()
 	// multiple3And5()
 	// twoOldestAges()
 	// toCamelCase()
