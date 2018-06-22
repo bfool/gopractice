@@ -86,8 +86,20 @@ func duplicateCount() {
 	fmt.Println(res)
 }
 
+func inAscOrder() {
+	res := practice.InAscOrder([]int{1, 2, 4, 7, 19})
+	fmt.Println(res)
+}
+
+func reverses() {
+	res := practice.Reverses("hello")
+	fmt.Println(res)
+}
+
 func main() {
-	duplicateCount()
+	// reverses()
+	// inAscOrder()
+	// duplicateCount()
 	// accum()
 	// isTriangle()
 	// century()
