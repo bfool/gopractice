@@ -57,7 +57,25 @@ func removeChar() {
 	fmt.Println(res)
 }
 
+func repeatStr() {
+	res := practice.RepeatStr(4, "hello ")
+	fmt.Println(res)
+}
+
+func combat() {
+	res := practice.Combat(100.0, 50.0)
+	fmt.Println(res)
+}
+
+func century() {
+	res := practice.Century(89)
+	fmt.Println(res)
+}
+
 func main() {
+	// century()
+	// combat()
+	// repeatStr()
 	// removeChar()
 	// positiveSum()
 	// evenOrOdd()
