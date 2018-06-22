@@ -1,6 +1,6 @@
 package practice
 
-import "sort"
+// import "sort"
 
 func IsTriangle(a, b, c int) bool {
 	// if a < 0 || b < 0 || c < 0 {

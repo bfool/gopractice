@@ -77,7 +77,18 @@ func isTriangle() {
 	fmt.Println(res)
 }
 
+func accum() {
+	res := practice.Accum("RqaEzty")
+	fmt.Println(res)
+}
+func duplicateCount() {
+	res := practice.DuplicateCount("inddivisibility")
+	fmt.Println(res)
+}
+
 func main() {
+	duplicateCount()
+	// accum()
 	// isTriangle()
 	// century()
 	// combat()
