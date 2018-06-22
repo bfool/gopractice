@@ -72,7 +72,13 @@ func century() {
 	fmt.Println(res)
 }
 
+func isTriangle() {
+	res := practice.IsTriangle(2, 5, 1)
+	fmt.Println(res)
+}
+
 func main() {
+	// isTriangle()
 	// century()
 	// combat()
 	// repeatStr()
