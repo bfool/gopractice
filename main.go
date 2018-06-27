@@ -96,7 +96,31 @@ func reverses() {
 	fmt.Println(res)
 }
 
+func longestConsec() {
+	res := practice.LongestConsec([]string{"itvayloxrp", "wkppqsztdkmvcuwvereiupccauycnjutlv", "vweqilsfytihvrzlaodfixoyxvyuyvgpck"}, 2)
+	fmt.Println(res)
+}
+
+func toNato() {
+	res := practice.ToNato("go for it!")
+	fmt.Println(res)
+}
+
+func decode() {
+	res := practice.Decode("MCMXC")
+	fmt.Println(res)
+}
+
+func hasUniqueChar() {
+	res := practice.HasUniqueChar("+-")
+	fmt.Println(res)
+}
+
 func main() {
+	// hasUniqueChar()
+	// decode()
+	// toNato()
+	// longestConsec()
 	// reverses()
 	// inAscOrder()
 	// duplicateCount()
