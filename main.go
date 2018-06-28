@@ -116,7 +116,13 @@ func hasUniqueChar() {
 	fmt.Println(res)
 }
 
+func bandNameGenerator() {
+	res := practice.BandNameGenerator("tar-zc")
+	fmt.Println(res)
+}
+
 func main() {
+	// bandNameGenerator()
 	// hasUniqueChar()
 	// decode()
 	// toNato()
