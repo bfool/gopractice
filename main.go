@@ -121,7 +121,31 @@ func bandNameGenerator() {
 	fmt.Println(res)
 }
 
+func splitString() {
+	res := practice.Solution2("abc")
+	fmt.Println(res)
+}
+
+func isValidCoordinates() {
+	invalidCoordinates := []string{
+		"23.234, - 23.4234",
+		"2342.43536, 34.324236",
+		"N23.43345, E32.6457",
+		"99.234, 12.324",
+		"6.325624, 43.34345.345",
+		"0, 1,2",
+		"0.342q0832, 1.2324",
+		"23.245, 1e1"}
+
+	for _, v := range invalidCoordinates {
+		res := practice.IsValidCoordinates(v)
+		fmt.Println(res)
+	}
+}
+
 func main() {
+	// isValidCoordinates()
+	// splitString()
 	// bandNameGenerator()
 	// hasUniqueChar()
 	// decode()
