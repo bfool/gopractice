@@ -143,7 +143,18 @@ func isValidCoordinates() {
 	}
 }
 
+func race() {
+	res := practice.Race(720, 850, 70)
+	fmt.Println(res)
+}
+
+func test_6_30() {
+	res := practice.Test_6_30("aaabbbbcca")
+	fmt.Println(res)
+}
 func main() {
+	test_6_30()
+	// race()
 	// isValidCoordinates()
 	// splitString()
 	// bandNameGenerator()
