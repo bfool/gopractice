@@ -152,8 +152,15 @@ func test_6_30() {
 	res := practice.Test_6_30("aaabbbbcca")
 	fmt.Println(res)
 }
+
+func thirt() {
+	res := practice.Thirt(85299258)
+	fmt.Println(res)
+}
+
 func main() {
-	test_6_30()
+	// thirt()
+	// test_6_30()
 	// race()
 	// isValidCoordinates()
 	// splitString()
