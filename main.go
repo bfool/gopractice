@@ -158,7 +158,14 @@ func thirt() {
 	fmt.Println(res)
 }
 
+func operArray() {
+	var data = []int{18, 69, -90, -78, 65, 40}
+	res := practice.OperArray(practice.Lcmu, data, data[0])
+	fmt.Println(res)
+}
+
 func main() {
+	operArray()
 	// thirt()
 	// test_6_30()
 	// race()
