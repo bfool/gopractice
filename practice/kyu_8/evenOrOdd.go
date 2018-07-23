@@ -1,4 +1,4 @@
-package practice
+package kyu_8
 
 func EvenOrOdd(number int) string {
 	if number%2 == 0 {

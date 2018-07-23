@@ -1,4 +1,4 @@
-package practice
+package kyu_7
 
 // remeber
 // when it can solve by fool style, just do it

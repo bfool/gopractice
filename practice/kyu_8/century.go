@@ -1,4 +1,4 @@
-package practice
+package kyu_8
 
 func Century(year int) int {
 	// res := float64(year) / 100.0

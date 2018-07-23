@@ -1,4 +1,4 @@
-package practice
+package kyu_6
 
 func Race(v1, v2, g int) (res [3]int) {
 	if v1 >= v2 {

@@ -1,4 +1,4 @@
-package practice
+package kyu_7
 
 import "sort"
 

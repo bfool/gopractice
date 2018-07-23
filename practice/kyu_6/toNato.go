@@ -1,4 +1,4 @@
-package practice
+package kyu_6
 
 import "strings"
 

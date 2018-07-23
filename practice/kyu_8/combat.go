@@ -1,4 +1,4 @@
-package practice
+package kyu_8
 
 func Combat(health, damage float64) float64 {
 	if health < damage {

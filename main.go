@@ -3,6 +3,10 @@ package main
 import (
 	"fmt"
 	"gopractice/practice"
+	"gopractice/practice/kyu_5"
+	"gopractice/practice/kyu_6"
+	"gopractice/practice/kyu_7"
+	"gopractice/practice/kyu_8"
 )
 
 func validParentheses() {
@@ -10,18 +14,18 @@ func validParentheses() {
 	// fmt.Scanln(&testString)
 	// fmt.Println("InputSring: ", testString)
 
-	res := practice.StackValidParentheses("{}[]<>(")
+	res := kyu_5.StackValidParentheses("{}[]<>(")
 	fmt.Println(res)
 }
 
 func sumEvenFibonacci() {
-	res := practice.SumEvenFibonacci(1)
+	res := kyu_7.SumEvenFibonacci(1)
 	fmt.Println(res)
 }
 
 func findUniq() {
 	s := []float32{1, 2, 1}
-	res := practice.FindUniq(s)
+	res := kyu_6.FindUniq(s)
 	fmt.Println(res)
 }
 
@@ -33,66 +37,61 @@ func toCamelCase() {
 
 func twoOldestAges() {
 	s := []int{6, 5, 83, 5, 3, 18}
-	res := practice.TwoOldestAges(s)
+	res := kyu_7.TwoOldestAges(s)
 	fmt.Println(res)
 }
 
 func multiple3And5() {
-	res := practice.Multiple3And5(10)
+	res := kyu_6.Multiple3And5(10)
 	fmt.Println(res)
 }
 
 func evenOrOdd() {
-	res := practice.EvenOrOdd(2)
+	res := kyu_8.EvenOrOdd(2)
 	fmt.Println(res)
 }
 
 func positiveSum() {
-	res := practice.PositiveSum([]int{1, -2, 3, 4, 5})
+	res := kyu_8.PositiveSum([]int{1, -2, 3, 4, 5})
 	fmt.Println(res)
 }
 
 func removeChar() {
-	res := practice.RemoveChar("person")
+	res := kyu_8.RemoveChar("person")
 	fmt.Println(res)
 }
 
 func repeatStr() {
-	res := practice.RepeatStr(4, "hello ")
-	fmt.Println(res)
-}
-
-func combat() {
-	res := practice.Combat(100.0, 50.0)
+	res := kyu_8.RepeatStr(4, "hello ")
 	fmt.Println(res)
 }
 
 func century() {
-	res := practice.Century(89)
+	res := kyu_8.Century(89)
 	fmt.Println(res)
 }
 
 func isTriangle() {
-	res := practice.IsTriangle(2, 5, 1)
+	res := kyu_7.IsTriangle(2, 5, 1)
 	fmt.Println(res)
 }
 
 func accum() {
-	res := practice.Accum("RqaEzty")
+	res := kyu_7.Accum("RqaEzty")
 	fmt.Println(res)
 }
 func duplicateCount() {
-	res := practice.DuplicateCount("inddivisibility")
+	res := kyu_6.DuplicateCount("inddivisibility")
 	fmt.Println(res)
 }
 
 func inAscOrder() {
-	res := practice.InAscOrder([]int{1, 2, 4, 7, 19})
+	res := kyu_7.InAscOrder([]int{1, 2, 4, 7, 19})
 	fmt.Println(res)
 }
 
 func reverses() {
-	res := practice.Reverses("hello")
+	res := kyu_8.Reverses("hello")
 	fmt.Println(res)
 }
 
@@ -102,27 +101,27 @@ func longestConsec() {
 }
 
 func toNato() {
-	res := practice.ToNato("go for it!")
+	res := kyu_6.ToNato("go for it!")
 	fmt.Println(res)
 }
 
 func decode() {
-	res := practice.Decode("MCMXC")
+	res := kyu_6.Decode("MCMXC")
 	fmt.Println(res)
 }
 
 func hasUniqueChar() {
-	res := practice.HasUniqueChar("+-")
+	res := kyu_7.HasUniqueChar("+-")
 	fmt.Println(res)
 }
 
 func bandNameGenerator() {
-	res := practice.BandNameGenerator("tar-zc")
+	res := kyu_7.BandNameGenerator("tar-zc")
 	fmt.Println(res)
 }
 
 func splitString() {
-	res := practice.Solution2("abc")
+	res := kyu_6.Solution2("abc")
 	fmt.Println(res)
 }
 
@@ -138,13 +137,13 @@ func isValidCoordinates() {
 		"23.245, 1e1"}
 
 	for _, v := range invalidCoordinates {
-		res := practice.IsValidCoordinates(v)
+		res := kyu_6.IsValidCoordinates(v)
 		fmt.Println(res)
 	}
 }
 
 func race() {
-	res := practice.Race(720, 850, 70)
+	res := kyu_6.Race(720, 850, 70)
 	fmt.Println(res)
 }
 
@@ -154,18 +153,18 @@ func test_6_30() {
 }
 
 func thirt() {
-	res := practice.Thirt(85299258)
+	res := kyu_6.Thirt(85299258)
 	fmt.Println(res)
 }
 
 func operArray() {
 	var data = []int{18, 69, -90, -78, 65, 40}
-	res := practice.OperArray(practice.Lcmu, data, data[0])
+	res := kyu_6.OperArray(kyu_6.Lcmu, data, data[0])
 	fmt.Println(res)
 }
 
 func main() {
-	operArray()
+	// operArray()
 	// thirt()
 	// test_6_30()
 	// race()
@@ -182,7 +181,6 @@ func main() {
 	// accum()
 	// isTriangle()
 	// century()
-	// combat()
 	// repeatStr()
 	// removeChar()
 	// positiveSum()

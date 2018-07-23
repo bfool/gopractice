@@ -1,4 +1,4 @@
-package practice
+package kyu_6
 
 func Gcdi(x, y int) int {
 	// tmp := x % y

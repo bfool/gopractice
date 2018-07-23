@@ -1,4 +1,4 @@
-package practice
+package kyu_5
 
 var m = map[string]string{
 	"{": "}",

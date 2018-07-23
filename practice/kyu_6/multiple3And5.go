@@ -1,4 +1,4 @@
-package practice
+package kyu_6
 
 func Multiple3And5(number int) int {
 	var sum int

@@ -1,4 +1,4 @@
-package practice
+package kyu_8
 
 func PositiveSum(numbers []int) int {
 	sum := 0

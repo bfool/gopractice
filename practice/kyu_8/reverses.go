@@ -1,4 +1,4 @@
-package practice
+package kyu_8
 
 func Reverses(word string) string {
 	res := make([]byte, len(word))

@@ -1,4 +1,4 @@
-package practice
+package kyu_7
 
 func InAscOrder(numbers []int) bool {
 	for i := 0; i < len(numbers)-1; i++ {

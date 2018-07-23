@@ -1,4 +1,4 @@
-package practice
+package kyu_6
 
 func SplitString(str string) []string {
 	var res []string

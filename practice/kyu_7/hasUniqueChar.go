@@ -1,4 +1,4 @@
-package practice
+package kyu_7
 
 func HasUniqueChar(str string) bool {
 	temp := make(map[rune]int)

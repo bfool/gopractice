@@ -1,4 +1,4 @@
-package practice
+package kyu_8
 
 func RepeatStr(repetitions int, value string) string {
 	var res string
