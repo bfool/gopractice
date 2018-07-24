@@ -30,8 +30,8 @@ func findUniq() {
 }
 
 func toCamelCase() {
-	s := "Th-s"
-	res := practice.ToCamelCase(s)
+	s := "th"
+	res := kyu_6.ToCamelCase(s)
 	fmt.Println(res)
 }
 
