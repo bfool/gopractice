@@ -96,7 +96,7 @@ func reverses() {
 }
 
 func longestConsec() {
-	res := practice.LongestConsec([]string{"itvayloxrp", "wkppqsztdkmvcuwvereiupccauycnjutlv", "vweqilsfytihvrzlaodfixoyxvyuyvgpck"}, 2)
+	res := kyu_7.LongestConsec([]string{"itvayloxrp", "wkppqsztdkmvcuwvereiupccauycnjutlv", "vweqilsfytihvrzlaodfixoyxvyuyvgpck"}, 2)
 	fmt.Println(res)
 }
 

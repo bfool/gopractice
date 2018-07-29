@@ -1,4 +1,4 @@
-package practice
+package kyu_7
 
 func LongestConsec(strarr []string, k int) (res string) {
 	length := len(strarr)
